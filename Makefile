@@ -5,4 +5,4 @@ lint:
 	bundle exec rubocop
 
 tests:
-	ruby my_test.rb -v
+	ruby -I test:lib test/my_test.rb
