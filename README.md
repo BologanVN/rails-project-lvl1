@@ -1,4 +1,4 @@
-[![Build Status](https://app.travis-ci.com/BologanVN/rails-project-lvl1.svg?branch=main)](https://travis-ci.com/BologanVN/rails-project-lvl1)
+[![CI](https://github.com/BologanVN/rails-project-lvl1/actions/workflows/master.yml/badge.svg)](https://github.com/BologanVN/rails-project-lvl1/actions/workflows/master.yml)
 
 # HexletCode
 
