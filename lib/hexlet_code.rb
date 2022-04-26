@@ -2,6 +2,7 @@
 
 require 'hexlet_code/version'
 
+# HexletCode
 module HexletCode
   class Error < StandardError; end
 
@@ -19,4 +20,10 @@ module HexletCode
       tag
     end
   end
+
+  def form_for(_, *args, &_)
+    act = args.empty? || args[0][:url].empty? ? '#' : args[0][:url].to_s
+    "<form action=\"#{act}\" method=\"post\">\n</form>"
+  end
+  module_function :form_for
 end
